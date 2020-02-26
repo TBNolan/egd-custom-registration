@@ -1,0 +1,43 @@
+form[name="oscar_registration_form"].hidden {
+    display: none;
+}
+
+form[name="oscar_registration_form"] fieldset {
+    border: none;
+    padding-top: 0;
+}
+
+form[name="oscar_registration_form"] label {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+form[name="oscar_registration_form"] input {
+    color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    min-height: 72px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin-bottom: 19px;
+}
+form[name="oscar_registration_form"] input::placeholder {
+    opacity: 0.6;
+}
+form[name="oscar_registration_form"] input#new_user_submit {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 500;
+    background-color: #61ce70;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    min-height: 47px;
+    flex-basis: 100%;
+    text-align: center;
+    line-height: 1;
+    transition: all 0.3s;
+    color: #ffffff;
+    border: 0;
+}
